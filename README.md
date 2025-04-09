@@ -6,13 +6,15 @@ A clean multi-sheet Excel file with mutations per stage.
 A mutation frequency scatter plot for quick stage-wise comparison.
 
 # Objectives
-Parse .maf files from local TCGA-ESCA sample directories.
+This script enables fast, stage-wise analysis of TCGA ESCA somatic mutation data by scanning locally downloaded .maf files. It is designed for exploratory analysis by:
 
-Extract and retain only coding mutations based on Variant_Classification.
+Randomly selecting 4 samples per stage
 
-Visualize mutation frequency distribution across stages.
+Filtering for coding variants
 
-Export a structured .xlsx output for downstream analysis.
+Visualizing mutation frequency by AJCC pathological stage
+
+Exporting structured Excel output for downstream integration
 
 # The pipeline:
 
