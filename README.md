@@ -27,10 +27,15 @@ Exports per-stage sheets and combined Excel output
 # Directory Structure
 
 grade_generalised/
+
 ├── StageI/
+
 │   ├── TCGA-XX-XXXX-01A/
+
 │   │   └── <*.maf>
+
 ├── StageII/
+
 │   ├── ...
 
 # Dependencies
